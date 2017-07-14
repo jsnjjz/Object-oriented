@@ -1,0 +1,130 @@
+群 616774568
+
+http://myjavascript.cn/ 网站
+
+面向对象 Es6 之前的
+
+类 - 浏览器分类
+原型 - 类的方法prototype
+原型链 - 继承
+	     -自定义类的继承 
+	     a.prototype = new b();
+
+	     call  改变this指向的 并且调用了一次这个函数
+	     从第二个参数 到之后的参数 
+	     就是 调用函数的形参的第二个到之后的
+
+	     apply 改变this的指向
+	     第二个参数  是个对象数组
+	     数组的第一个参数 到最后 
+	     就是 调用函数的从第二个参数之后的到最后对应
+
+	
+初级 和 中级的分水岭
+平时 使用的json 都是 new Object()的缩写
+
+var arr = [1,2,3];
+var arr = new Array(1,2,3);
+
+var num = 1;
+var num = new Number(1);
+
+var str = '1';
+var str = new String('1');
+
+typeof  js判断数据类型的东西
+function string number boolean object undefined *null symbol
+
+真正的数据类型 
+undefined、null、布尔值（Boolean）、字符串（String）、数值（Number）、对象 、symbol
+
+万物皆是对象
+
+字面量 —— 字面上显示的东西就叫做字面量
+包装类 —— 没有new的函数声明就是包装类
+
+什么是对象？
+1.只要是对象就可以有自己的私有属性。
+2.只要是new 出来的都是对象。
+3.不同对象肯定不会相等的。
+4.对象都会有引用机制。
+*如果不想引用就从新赋值
+
+内存机制
+-回收机制  
+		c语言 
+		var a = 10;
+
+		a -> 0x000000000001
+
+		null 
+		delete 只可以删除对象的属性
+
+
+——生命周期
+
+*面向对象-最有用的就是私有属性
+
+ this 
+
+1.在普通函数下 this 指向的是window.
+2.有事件源指向事件源本身.
+3.在定时器下除es6 this 指向window.
+4.在对象下this指向的是自己本身.
+
+
+            -  植物类
+
+            		 -  种树
+地球上 - 生物 - 人类   -  砍树
+					 -  做工具
+					 -  做饭
+
+			- 微生物类
+
+			- 动物类
+
+			- 杂交
+
+  												- substring
+  												- slice
+				-  string(String) - prototype   - big
+												- split
+浏览器 - object  -  undefined
+                
+                -  boolean
+
+                -  number(Number)
+
+                -  leo           - a
+                				 - b
+
+                - a
+
+                    - b
+
+
+不是所有的东西都是绝对的 
+window 是绝对的 永恒的
+
+只需要 控制 类 的prototype 就可以控制类的所有方法
+
+toString();
+
+继承 - 
+儿子 拿 父亲的
+父亲 不能拿 儿子的 
+
+
+$('a').bind()
+
+angular.module
+
+
+
+
+
+
+
+
+

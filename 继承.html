@@ -1,0 +1,60 @@
+<!doctype html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <title></title> 
+</head>
+<body>
+<script type="text/javascript">
+
+
+/*
+function a(x,y,z){
+	console.log(this,x,z,y);
+};
+a.apply(1,[2,3,4]);
+
+*/
+/*
+
+function a(){
+	this.k = 10;
+};
+
+function b(){
+	a.call(this);
+};
+console.log(new b().k);
+*/
+/*
+function a(){
+}
+
+a.prototype.c = 10;
+//new a();
+function b(){
+
+};
+//b.prototype = a.prototype;
+b.prototype = new a();
+b.prototype.d = 10;
+console.log(new b());
+*/
+
+function jquery(){
+
+};
+jquery.prototype.addClass = function(){
+	
+}
+
+function $(obj){
+	return new jquery(obj);
+};
+
+$('a')
+
+
+</script>
+</body>
+</html>

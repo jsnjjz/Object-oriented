@@ -1,0 +1,36 @@
+<!doctype html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <title></title> 
+</head>
+<body>
+<script type="text/javascript">
+/*
+	function a(){
+		console.log(this);
+	};
+	window.a();
+*/
+
+document.onclick = function(){
+	/*
+	window.setTimeout(function(){
+		console.log(this);
+	},0);
+*/
+
+	setTimeout(()=>{
+		console.log(this)
+	},0);
+	//
+	/*
+	function a(){
+		console.log(this);
+	};
+	a();
+	*/
+}
+</script>
+</body>
+</html>
